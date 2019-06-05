@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DAL\DataAccessLayer.Models\DataAccessLayer.Models.csproj" />
+    <ProjectReference Include="..\BusinessLogic.Models\BusinessLogic.Models.csproj" />
+  </ItemGroup>
+
+</Project>
